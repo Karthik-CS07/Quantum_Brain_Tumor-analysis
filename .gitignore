@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Datasets and local inputs
+datasets/
+data/
+*.zip
+*.tar.gz
+
+# Model weights and checkpoints
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
